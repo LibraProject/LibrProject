@@ -1,8 +1,12 @@
-@import url(./min.css);
 :global * {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+:global a {
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (min-width: 450px) {
@@ -10,11 +14,5 @@
     width: 100%;
     height: 500px;
     background-color: red;
-  }
-}
-
-@media screen and (max-width: 449px) {
-  :global {
-    
   }
 }
