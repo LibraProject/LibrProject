@@ -923,7 +923,11 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+<<<<<<< HEAD
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.2":
+=======
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2":
+>>>>>>> lhy
   version "7.6.0"
   resolved "http://r.cnpmjs.org/@babel/runtime/download/@babel/runtime-7.6.0.tgz#4fc1d642a9fd0299754e8b5de62c631cf5568205"
   integrity sha1-T8HWQqn9Apl1Totd5ixjHPVWggU=
@@ -4821,11 +4825,14 @@ growly@^1.3.0:
   resolved "http://r.cnpmjs.org/growly/download/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
+<<<<<<< HEAD
 gud@^1.0.0:
   version "1.0.0"
   resolved "http://r.cnpmjs.org/gud/download/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
   integrity sha1-pIlYGxfmpwvsqavjrlfeekmYUsA=
 
+=======
+>>>>>>> lhy
 gzip-size@3.0.0:
   version "3.0.0"
   resolved "http://r.cnpmjs.org/gzip-size/download/gzip-size-3.0.0.tgz#546188e9bdc337f673772f81660464b389dce520"
@@ -5003,7 +5010,11 @@ he@1.2.x:
   resolved "http://r.cnpmjs.org/he/download/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
 
+<<<<<<< HEAD
 history@^4.6.3, history@^4.7.2, history@^4.9.0:
+=======
+history@^4.6.3, history@^4.7.2:
+>>>>>>> lhy
   version "4.10.1"
   resolved "http://r.cnpmjs.org/history/download/history-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
   integrity sha1-MzcaZeOoOyZ0NOKz87G0xYqtTPM=
@@ -5034,6 +5045,7 @@ hoist-non-react-statics@^2.5.0:
   resolved "http://r.cnpmjs.org/hoist-non-react-statics/download/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
   integrity sha1-xZA89AnA39kI84jmGdhrnBF0y0c=
 
+<<<<<<< HEAD
 hoist-non-react-statics@^3.1.0:
   version "3.3.0"
   resolved "http://r.cnpmjs.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.0.tgz#b09178f0122184fb95acf525daaecb4d8f45958b"
@@ -5041,6 +5053,8 @@ hoist-non-react-statics@^3.1.0:
   dependencies:
     react-is "^16.7.0"
 
+=======
+>>>>>>> lhy
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/home-or-tmp/download/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -6852,6 +6866,7 @@ min-document@^2.19.0:
   dependencies:
     dom-walk "^0.1.0"
 
+<<<<<<< HEAD
 mini-create-react-context@^0.3.0:
   version "0.3.2"
   resolved "http://r.cnpmjs.org/mini-create-react-context/download/mini-create-react-context-0.3.2.tgz#79fc598f283dd623da8e088b05db8cddab250189"
@@ -6861,6 +6876,8 @@ mini-create-react-context@^0.3.0:
     gud "^1.0.0"
     tiny-warning "^1.0.2"
 
+=======
+>>>>>>> lhy
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/minimalistic-assert/download/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
@@ -8474,7 +8491,11 @@ react-error-overlay@^4.0.1:
   resolved "http://r.cnpmjs.org/react-error-overlay/download/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
   integrity sha1-QXrdsIFKkPOnCC6sunzuWI0A2ok=
 
+<<<<<<< HEAD
 react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6, react-is@^16.9.0:
+=======
+react-is@^16.8.1, react-is@^16.8.6, react-is@^16.9.0:
+>>>>>>> lhy
   version "16.9.0"
   resolved "http://r.cnpmjs.org/react-is/download/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha1-IcqVYTmarQ/xp3AcAWg+jKmB7cs=
@@ -8503,6 +8524,7 @@ react-router-dom@^4.1.2:
     react-router "^4.3.1"
     warning "^4.0.1"
 
+<<<<<<< HEAD
 react-router-dom@^5.0.1:
   version "5.0.1"
   resolved "http://r.cnpmjs.org/react-router-dom/download/react-router-dom-5.0.1.tgz#ee66f4a5d18b6089c361958e443489d6bab714be"
@@ -8516,6 +8538,8 @@ react-router-dom@^5.0.1:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
+=======
+>>>>>>> lhy
 react-router-redux@5.0.0-alpha.9:
   version "5.0.0-alpha.9"
   resolved "http://r.cnpmjs.org/react-router-redux/download/react-router-redux-5.0.0-alpha.9.tgz#825431516e0e6f1fd93b8807f6bd595e23ec3d10"
@@ -8525,6 +8549,7 @@ react-router-redux@5.0.0-alpha.9:
     prop-types "^15.6.0"
     react-router "^4.2.0"
 
+<<<<<<< HEAD
 react-router@5.0.1:
   version "5.0.1"
   resolved "http://r.cnpmjs.org/react-router/download/react-router-5.0.1.tgz#04ee77df1d1ab6cb8939f9f01ad5702dbadb8b0f"
@@ -8541,6 +8566,8 @@ react-router@5.0.1:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
+=======
+>>>>>>> lhy
 react-router@^4.2.0, react-router@^4.3.1:
   version "4.3.1"
   resolved "http://r.cnpmjs.org/react-router/download/react-router-4.3.1.tgz#aada4aef14c809cb2e686b05cee4742234506c4e"
@@ -10025,7 +10052,11 @@ tiny-invariant@^1.0.2:
   resolved "http://r.cnpmjs.org/tiny-invariant/download/tiny-invariant-1.0.6.tgz#b3f9b38835e36a41c843a3b0907a5a7b3755de73"
   integrity sha1-s/mziDXjakHIQ6OwkHpaezdV3nM=
 
+<<<<<<< HEAD
 tiny-warning@^1.0.0, tiny-warning@^1.0.2:
+=======
+tiny-warning@^1.0.0:
+>>>>>>> lhy
   version "1.0.3"
   resolved "http://r.cnpmjs.org/tiny-warning/download/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
   integrity sha1-lKMNtFPfTGQ9D9VmBg1gqHXYR1Q=
