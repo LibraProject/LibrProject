@@ -9,6 +9,7 @@
   "dependencies": {
     "dva": "^2.4.1",
     "echarts": "^4.3.0",
+    "layui-src": "^2.5.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

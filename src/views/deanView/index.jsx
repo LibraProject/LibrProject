@@ -2,7 +2,7 @@
  * 院长视角  
  **/
 
-import React, { useState, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import echarts from 'echarts';
 import '@/css/index.css'
 

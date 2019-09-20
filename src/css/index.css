@@ -18,6 +18,7 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    font-size: 14px;
   }
   :global .homeHead {
     width: 100%;
@@ -91,166 +92,338 @@
   :global .home .login p span, :global .home .register p span {
     font-size: 14px;
   }
-}
-
-:global .head {
-  width: 100%;
-  height: 80px;
-  background-color: #0076FF;
-  color: #fff;
-  font-size: 28px;
-  line-height: 80px;
-  text-align: center;
-}
-
-:global .nav {
-  width: 1350px;
-  height: 125px;
-  margin: 10px auto;
-  border: 1px solid #ccc;
-  line-height: 125px;
-  display: flex;
-}
-
-:global .nav .navLeft {
-  width: 90%;
-  padding-left: 20px;
-}
-
-:global .nav .navLeft span {
-  width: 103px;
-  height: 40px;
-  display: inline-block;
-  margin-right: 15px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-:global .nav .navLeft .span {
-  background-color: #E6F1FC;
-  color: #1989FA;
-  border-width: 0px;
-}
-
-:global .nav .navLeft .spanActive {
-  background-color: #0076FF;
-  color: #fff;
-}
-
-:global .nav .navLeft .addClass {
-  border: 1px solid #333;
-}
-
-:global .nav .navRight {
-  width: 10%;
-  text-align: center;
-}
-
-:global .nav .navRight span {
-  margin-right: 5px;
-  font-size: 14px;
-}
-
-:global .nav .navRight .solid {
-  color: #5677fc;
-}
-
-:global .search {
-  width: 1350px;
-  height: 80px;
-  margin: 10px auto;
-  line-height: 80px;
-  padding-left: 20px;
-  font-size: 14px;
-}
-
-:global .search span {
-  display: inline-block;
-  margin-right: 15px;
-}
-
-:global .search input {
-  width: 240px;
-  height: 40px;
-  margin-right: 20px;
-  background-color: white;
-  border-color: #dcdfe6;
-  border-radius: 4px;
-  border-width: 1px;
-  border-style: solid;
-}
-
-:global .search input:nth-of-type(1) {
-  padding-left: 15px;
-  color: #909399;
-}
-
-:global .search input:nth-of-type(2),
-:global .search input:nth-of-type(3) {
-  color: #bbbbbb;
-  text-align: center;
-}
-
-:global .search button {
-  width: 95px;
-  height: 40px;
-  line-height: 40px;
-  background-color: #E6F1FC;
-  color: #1989FA;
-  border-radius: 4px;
-  border: 0;
-}
-
-:global .map {
-  width: 1350px;
-  height: 600px;
-  margin: 10px auto;
-  font-size: 14px;
-}
-
-:global .map .mapFoot {
-  width: 100%;
-  height: 70px;
-  background-color: #F2F1F1;
-  display: flex;
-}
-
-:global .map .mapLeft {
-  width: 70%;
-}
-
-:global .map .mapLeft span {
-  display: inline-block;
-  height: 35px;
-  line-height: 35px;
-  padding: 5px 10px;
-  border-radius: 4px;
-  background-color: white;
-  color: #101010;
-  text-align: center;
-  font-family: Microsoft Yahei;
-  border: 1px solid #bbbbbb;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-:global .map .mapRight {
-  width: 30%;
-}
-
-:global .map .mapRight span {
-  display: inline-block;
-  height: 35px;
-  line-height: 35px;
-  padding: 5px 10px;
-  border-radius: 4px;
-  background-color: white;
-  color: #101010;
-  text-align: center;
-  font-family: Microsoft Yahei;
-  border: 1px solid #bbbbbb;
-  margin-top: 10px;
-  margin-left: 20px;
+  :global .head {
+    width: 100%;
+    height: 80px;
+    background-color: #0076FF;
+    color: #fff;
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+  }
+  :global .nav {
+    width: 90%;
+    height: 125px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    line-height: 125px;
+    display: flex;
+  }
+  :global .nav .navLeft {
+    width: 90%;
+    padding-left: 20px;
+  }
+  :global .nav .navLeft span {
+    width: 103px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  :global .nav .navLeft .span {
+    background-color: #E6F1FC;
+    color: #1989FA;
+    border-width: 0px;
+  }
+  :global .nav .navLeft .spanActive {
+    background-color: #0076FF;
+    color: #fff;
+  }
+  :global .nav .navLeft .addClass {
+    border: 1px solid #333;
+  }
+  :global .nav .navRight {
+    width: 10%;
+    text-align: center;
+  }
+  :global .nav .navRight span {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  :global .nav .navRight .solid {
+    color: #5677fc;
+  }
+  :global .search {
+    width: 90%;
+    height: 80px;
+    margin: 10px auto;
+    line-height: 80px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  :global .search span {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  :global .search input {
+    width: 240px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: white;
+    border-color: #dcdfe6;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+  }
+  :global .search input:nth-of-type(1) {
+    padding-left: 15px;
+    color: #909399;
+  }
+  :global .search input:nth-of-type(2),
+  :global .search input:nth-of-type(3) {
+    color: #bbbbbb;
+    text-align: center;
+  }
+  :global .search button {
+    width: 95px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #E6F1FC;
+    color: #1989FA;
+    border-radius: 4px;
+    border: 0;
+  }
+  :global .map {
+    width: 90%;
+    height: 600px;
+    margin: 10px auto;
+    font-size: 14px;
+  }
+  :global .map .echarsMap {
+    width: 95%;
+    height: 500px;
+  }
+  :global .map .mapFoot {
+    width: 100%;
+    height: 70px;
+    background-color: #F2F1F1;
+    display: flex;
+  }
+  :global .map .mapLeft {
+    width: 70%;
+    cursor: pointer;
+  }
+  :global .map .mapLeft span {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: white;
+    color: #101010;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    border: 1px solid #bbbbbb;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  :global .map .mapRight {
+    width: 31%;
+    cursor: pointer;
+  }
+  :global .map .mapRight span {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: white;
+    color: #101010;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    border: 1px solid #bbbbbb;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  :global .deailog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  :global .deailog .mask {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 483px;
+    height: 421px;
+    line-height: 20px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  :global .deailog h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  :global .deailog ul {
+    width: 439px;
+    height: 180px;
+    font-size: 16px;
+    text-align: left;
+    font-family: PingFangSC-regular;
+    padding: 20px;
+  }
+  :global .deailog ul li {
+    height: 40px;
+    margin-top: 25px;
+  }
+  :global .deailog ul li input {
+    width: 272px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    border: 1px solid #dcdfe6;
+  }
+  :global .deailog ul li i {
+    width: 95px;
+    height: 40px;
+    line-height: 40px;
+    font-style: normal;
+    display: inline-block;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #e6f1fc;
+    text-align: center;
+    border: 1px solid #a3d0fd;
+  }
+  :global .deailog ul li span {
+    margin-right: 20px;
+  }
+  :global .deailog ul li textarea {
+    width: 297px;
+    height: 91px;
+    line-height: 20px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #dcdfe6;
+  }
+  :global .deailog .btns {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+  }
+  :global .deailog .btns button {
+    width: 65px;
+    height: 36px;
+    line-height: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+  }
+  :global .deailog .btns button:nth-of-type(1) {
+    margin-left: 280px;
+  }
+  :global .deailog .btns button:nth-of-type(2) {
+    margin-left: 20px;
+    background-color: #1890FF;
+    color: #fff;
+  }
+  :global .analyze {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  :global .analyze .mask {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 483px;
+    height: 421px;
+    line-height: 20px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  :global .analyze h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  :global .analyze ul {
+    width: 439px;
+    height: 270px;
+    font-size: 16px;
+    text-align: left;
+    font-family: PingFangSC-regular;
+    padding: 20px;
+  }
+  :global .analyze ul li {
+    margin-top: 25px;
+    display: flex;
+  }
+  :global .analyze ul li input {
+    width: 272px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    border: 1px solid #dcdfe6;
+  }
+  :global .analyze ul li i {
+    width: 95px;
+    height: 40px;
+    line-height: 40px;
+    font-style: normal;
+    display: inline-block;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #e6f1fc;
+    text-align: center;
+    border: 1px solid #a3d0fd;
+  }
+  :global .analyze ul li span {
+    display: inline-block;
+    line-height: 90px;
+    margin-right: 20px;
+  }
+  :global .analyze ul li textarea {
+    width: 297px;
+    height: 91px;
+    line-height: 20px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #dcdfe6;
+  }
+  :global .analyze .btns {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+  }
+  :global .analyze .btns button {
+    width: 65px;
+    height: 36px;
+    line-height: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+  }
+  :global .analyze .btns button:nth-of-type(1) {
+    margin-left: 300px;
+  }
+  :global .analyze .btns button:nth-of-type(2) {
+    margin-left: 20px;
+    background-color: #1890FF;
+    color: #fff;
+  }
 }
