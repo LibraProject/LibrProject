@@ -6,6 +6,7 @@ import { Redirect,Route,Switch,NavLink } from 'react-router-dom'
 import Login from './login'
 import Register from './register'
 import '@/css/index.css'
+import '@/css/min.css'
 
 class Home extends Component {
   render() {
