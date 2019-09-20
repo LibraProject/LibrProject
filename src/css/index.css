@@ -141,4 +141,11 @@
     border-radius: 50%;
     background: #5677fc;
   }
+  :global .allGradeswrap .map {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  :global .allGradeswrap #main {
+    width: 1540px;
+  }
 }

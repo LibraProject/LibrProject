@@ -23,7 +23,7 @@
       flex-direction: column;
     }
 
-    //院长视角
+    //院长视角 PC
     .allGradeswrap {
       width: 100%;
       height: 100%;
@@ -162,6 +162,14 @@
           }
         }
       }
+      .map{
+        width: 1440px;
+        margin: 0 auto;
+      }
+      #main{
+        width: 1540px;
+      }
+      // end
     }
   }
 

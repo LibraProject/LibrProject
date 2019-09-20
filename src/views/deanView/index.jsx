@@ -121,7 +121,7 @@ const Deanview = props => {
             <span className="span">1703E</span>
           </div>
           <div className="navBottom">
-              <span></span>
+            <span></span>
           </div>
         </div>
 
@@ -136,7 +136,7 @@ const Deanview = props => {
         <div className="map">
           <div id="main" style={{ width: '100%', height: '500px' }}></div>
           <div className="mapFoot">
-            
+
           </div>
         </div>
 

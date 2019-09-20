@@ -12,17 +12,38 @@
         height: 100%;
     }
 
-    html{
-        font-size: calc(100/375*100vw);
-    }
+    
     
     @media screen and (max-width:449px){
-        .box{
+        html{
+            font-size: calc(100/375*100vw);
+        }
+        // 移动 院长视角
+        .allGradeswrap{
             width: 100%;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            font-size: 14px;
+            overflow: hidden;
+            font-size:0.14rem;
+            .allGradeshead{
+                width: 100%;
+                height: .6rem;
+                background: #5677fc;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+            }
+            .allGradesnav{
+                width: 95%;
+                font-size:.001rem;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 auto;
+                .allGradesclass{
+                    padding: 0.04rem 0.05rem;
+                }
+            }
+            //end
         }
     }
 }
