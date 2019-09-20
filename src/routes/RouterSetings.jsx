@@ -1,7 +1,7 @@
 import { lazy } from 'react'
 const routes = [
     {
-        path: "/", redirect: '/home',
+        path: "/", redirect: '/allGrades',
     }, {
         path: "/home", component: lazy(() => import('../views/Home')),
         children: [{
