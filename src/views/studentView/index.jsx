@@ -3,6 +3,7 @@
  */
 
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import EchartsView from '@/components/echarts'
 import { connect } from 'dva'
 import Grade from '@/components/grade'
@@ -50,8 +51,12 @@ const StudentView = props => {
               }}>添加分析和解决方案+</span>
             </div>
             <div className="mapRight">
-              <span>查看和编辑该生所有成绩</span>
-              <span>院长视角</span>
+              <span>
+                  <NavLink to="/allGrades">查看和编辑该生所有成绩</NavLink>
+              </span>
+              <span>
+                  <NavLink to="/deanView">院长视角</NavLink>
+              </span>
             </div>
           </div>
         </div>

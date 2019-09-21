@@ -244,6 +244,9 @@
     border: 1px solid #bbbbbb;
     margin: 10px 0 10px 20px;
   }
+  :global .map .mapRight span a {
+    color: #333;
+  }
   :global .deailog {
     width: 100%;
     height: 100%;
@@ -275,6 +278,7 @@
     height: 1.5rem;
     font-size: 14px;
     text-align: left;
+    margin-left: 10px;
     font-family: PingFangSC-regular;
   }
   :global .deailog ul li {
@@ -303,15 +307,6 @@
   }
   :global .deailog ul li span {
     margin-right: 20px;
-  }
-  :global .deailog ul li textarea {
-    width: 297px;
-    height: 91px;
-    line-height: 20px;
-    border-radius: 4px 4px 4px 4px;
-    background-color: white;
-    text-align: center;
-    border: 1px solid #dcdfe6;
   }
   :global .deailog .btns {
     width: 100%;
@@ -351,42 +346,42 @@
     transform: translate(-50%, -50%);
     width: 2.4rem;
     height: 3rem;
-    line-height: 20px;
+    line-height: .2rem;
     border-radius: 4px 4px 4px 4px;
     background-color: white;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: .1rem;
   }
   :global .analyze h3 {
-    height: 40px;
-    line-height: 40px;
-    font-size: 22px;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: 16px;
   }
   :global .analyze ul {
-    width: 439px;
-    height: 270px;
-    font-size: 16px;
+    width: 2.1rem;
+    height: 1.8rem;
+    font-size: 14px;
     text-align: left;
     font-family: PingFangSC-regular;
-    padding: 20px;
+    padding: .1rem;
   }
   :global .analyze ul li {
-    margin-top: 25px;
+    margin-top: 15px;
     display: flex;
   }
   :global .analyze ul li input {
-    width: 272px;
-    height: 40px;
-    line-height: 40px;
+    width: 1.4rem;
+    height: .3rem;
+    line-height: .3rem;
     padding-left: 20px;
     border-radius: 4px 4px 4px 4px;
     background-color: white;
     border: 1px solid #dcdfe6;
   }
   :global .analyze ul li i {
-    width: 95px;
-    height: 40px;
-    line-height: 40px;
+    width: .45rem;
+    height: .3rem;
+    line-height: .3rem;
     font-style: normal;
     display: inline-block;
     border-radius: 4px 4px 4px 4px;
@@ -396,26 +391,28 @@
   }
   :global .analyze ul li span {
     display: inline-block;
-    line-height: 90px;
-    margin-right: 20px;
+    line-height: .4rem;
+    margin-right: .1rem;
   }
   :global .analyze ul li textarea {
-    width: 297px;
-    height: 91px;
+    width: 1.4rem;
+    height: .4rem;
     line-height: 20px;
     border-radius: 4px 4px 4px 4px;
     background-color: white;
-    text-align: center;
     border: 1px solid #dcdfe6;
+  }
+  :global .analyze ul li:nth-of-type(2) > span {
+    margin-right: .38rem;
   }
   :global .analyze .btns {
     width: 100%;
-    height: 40px;
-    margin-top: 40px;
+    height: .4rem;
+    margin-top: .2rem;
   }
   :global .analyze .btns button {
-    width: 65px;
-    height: 36px;
+    width: .65rem;
+    height: .36rem;
     line-height: 20px;
     border-radius: 4px;
     font-size: 14px;
@@ -424,7 +421,7 @@
     border: 1px solid #d9d9d9;
   }
   :global .analyze .btns button:nth-of-type(1) {
-    margin-left: 300px;
+    margin-left: .7rem;
   }
   :global .analyze .btns button:nth-of-type(2) {
     margin-left: 20px;

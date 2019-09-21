@@ -69,7 +69,7 @@
   }
   :global .home .login li, :global .home .register li {
     margin-bottom: 10px;
-    margin-top: 25px;
+    margin-top: 10px;
   }
   :global .home .login li input, :global .home .register li input {
     border: 1px solid #ccc;
@@ -91,6 +91,12 @@
   }
   :global .home .login p span, :global .home .register p span {
     font-size: 14px;
+  }
+  :global .home .register > li > p {
+    height: 40px;
+    line-height: 40px;
+    color: tomato;
+    display: none;
   }
   :global .head {
     width: 100%;
@@ -156,10 +162,10 @@
   }
   :global .search span {
     display: inline-block;
-    margin-right: 15px;
+    width: 10%;
   }
   :global .search input {
-    width: 240px;
+    width: 20%;
     height: 40px;
     margin-right: 20px;
     background-color: white;
@@ -178,7 +184,7 @@
     text-align: center;
   }
   :global .search button {
-    width: 95px;
+    width: 10%;
     height: 40px;
     line-height: 40px;
     background-color: #E6F1FC;
@@ -203,7 +209,7 @@
     display: flex;
   }
   :global .map .mapLeft {
-    width: 70%;
+    width: 65%;
     cursor: pointer;
   }
   :global .map .mapLeft span {
@@ -221,7 +227,7 @@
     margin-left: 20px;
   }
   :global .map .mapRight {
-    width: 31%;
+    width: 35%;
     cursor: pointer;
   }
   :global .map .mapRight span {
@@ -237,6 +243,9 @@
     border: 1px solid #bbbbbb;
     margin-top: 10px;
     margin-left: 20px;
+  }
+  :global .map .mapRight span a {
+    color: #333;
   }
   :global .deailog {
     width: 100%;
