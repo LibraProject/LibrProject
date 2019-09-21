@@ -13,10 +13,11 @@
     }
 
     html{
-        font-size: calc(100/375*100vw)
+        font-size: calc(100/375*100vw);
     }
     
     @media screen and (max-width:449px){
+        
         .box{
             width: 100%;
             height: 100%;
@@ -441,5 +442,90 @@
                 }
             }
         }
+
+
+        .allGradeswrap{
+            width: 100%;
+            height: 100%;
+            font-size:0.14rem;
+    
+            .allGradeshead{
+                width: 100%;
+                height: .6rem;
+                background: #5677fc;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+            }
+            .allGradesmain{
+                .allGradesnav{
+                    width: 95%;
+                    font-size:.001rem;
+                    display: flex;
+                    align-items: center;
+                    margin: 0 auto;
+                    .allGradesclass{
+                        width: 0.85rem;
+                        padding: 0.04rem 0.05rem;
+                    }
+                    .allGradesclassList{
+                        display: flex;
+                        flex-wrap: wrap;
+                        span{
+                            padding: 0.04rem 0.05rem;
+                            border:1px solid #5677fc;
+                            margin: 0.05rem;
+                            background: #e6f1fc;
+                            color: #5677fc;
+                            border-radius: 5px;
+                        }
+                        .listActive{
+                            background: #5677fc;
+                            color: white;
+                        }
+                    }
+                }
+                border: 1px solid #ccc;
+                .allGradesbm{
+                    font-size:.001rem;
+                }
+                .allGradesbm{
+                    width: 95%;
+                    height: 0.35rem;
+                    display: flex;
+                    align-items: center;
+                    box-sizing: border-box;
+                    margin: 0 auto;
+                    position: relative;
+                    .allGradespost{
+                        position: absolute;
+                        right: 0.2rem;
+                    }
+                    .allGradespos{
+                        position: relative;
+                        right: 60%;
+                        top: 13px;
+                        width: .3rem;
+                        height: 0.075rem;
+                        border-radius: 1rem;
+                        background: #5677fc;
+                        .circle{
+                            position: absolute;
+                            left:0;
+                            top:50%;
+                            background: white;
+                            width: 0.15rem;
+                            height: 0.15rem;
+                            border-radius: 50%;
+                            transform: translate(0,-50%);
+                            border:1px solid #ccc;
+                            
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+       

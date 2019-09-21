@@ -1,13 +1,13 @@
 import React,{Suspense}from 'react'
-import {BrowserRouter} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 import RouterView from './RouterViews'
 import routes from './RouterSetings'
 function Routers(){
-    return <BrowserRouter>
+    return <HashRouter>
     <Suspense fallback={<div>loading...</div>}>
         <RouterView routes={routes}/>
     </Suspense>
        
-    </BrowserRouter>
+    </HashRouter>
 }
 export default Routers
