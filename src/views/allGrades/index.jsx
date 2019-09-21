@@ -117,7 +117,6 @@ function allGrades() {
               {
                 classArr.map((el, i) => <span key={el} className={ind == i ? 'listActive' : ''} onClick={() => { setInd(i) }}>{el}</span>)
               }
-              <span className="allGradesaddClass">创建班级+</span>
             </div>
           </div>
 
@@ -141,9 +140,20 @@ function allGrades() {
 
         </div>
         <div className="map">
-          <div id="main" style={{ width: '100%', height: '500px' }}></div>
+          <div id="main"style={{width:'95%',height:'500px'}}></div>
         </div>
-
+        <div className="allGradeTxts ">
+              <div className="allGradeTxtsItem clearBoth">
+                <div className="allGradeTxtsItemLeft">
+                  <p>2019-9-21</p>
+                  <p>今日分析及解决方案 </p>
+                  <p>查看历史记录</p>
+                </div>
+                <div className="allGradeTxtsItemright ">
+                    阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒阿斯顿撒大撒大声地撒大所多撒奥所多撒
+                </div>
+              </div>
+        </div>
       </main>
     </div>
   )

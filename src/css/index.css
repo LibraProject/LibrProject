@@ -13,6 +13,15 @@
   height: 100%;
 }
 
+:global .clearBoth::after {
+  display: block;
+  content: '';
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  height: 0;
+}
+
 @media screen and (min-width: 450px) {
   :global .box {
     width: 100%;
@@ -24,7 +33,7 @@
   :global .allGradeswrap {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-y: scroll;
   }
   :global .allGradeswrap .allGradeshead {
     width: 100%;
@@ -147,5 +156,30 @@
   }
   :global .allGradeswrap #main {
     width: 1540px;
+  }
+  :global .allGradeswrap .allGradeTxts {
+    width: 100%;
+  }
+  :global .allGradeswrap .allGradeTxts .allGradeTxtsItem {
+    width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  :global .allGradeswrap .allGradeTxts .allGradeTxtsItem .allGradeTxtsItemLeft {
+    width: 110px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 12px;
+    padding: 10px;
+    flex-shrink: 0;
+  }
+  :global .allGradeswrap .allGradeTxts .allGradeTxtsItem .allGradeTxtsItemLeft p {
+    line-height: 25px;
+    height: 25px;
+  }
+  :global .allGradeswrap .allGradeTxts .allGradeTxtsItem .allGradeTxtsItemright {
+    padding: 10px;
+    font-size: 12px;
   }
 }
