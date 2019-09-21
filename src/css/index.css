@@ -118,10 +118,11 @@
   :global .allGradeswrap .allGradesmain .allGradesnav .allGradesclassList span:hover {
     cursor: pointer;
   }
-  :global .allGradeswrap .allGradesmain .allGradesnav .allGradesTitle {
+  :global .allGradeswrap .allGradesmain .allGradesTitle {
     position: relative;
-    left: 90px;
-    top: -18px;
+  }
+  :global .allGradeswrap .allGradesmain .allGradesTitle .allGradesTitleActive {
+    color: #1890ff;
   }
   :global .allGradeswrap .allGradesmain .allGradespos {
     width: 64px;
@@ -143,12 +144,13 @@
   }
   :global .allGradeswrap .allGradesmain .allGradespos .circle {
     position: absolute;
-    left: 0;
+    left: 30px;
     top: -9px;
     width: 34px;
     height: 34px;
     border-radius: 50%;
     background: #5677fc;
+    transition: all .5s;
   }
   :global .allGradeswrap .map {
     width: 1440px;
@@ -164,7 +166,7 @@
     width: 1440px;
     display: flex;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid blue;
   }
   :global .allGradeswrap .allGradeTxts .allGradeTxtsItem .allGradeTxtsItemLeft {
     width: 110px;
@@ -180,6 +182,6 @@
   }
   :global .allGradeswrap .allGradeTxts .allGradeTxtsItem .allGradeTxtsItemright {
     padding: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
 }

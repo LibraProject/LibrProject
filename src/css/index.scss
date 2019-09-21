@@ -134,11 +134,11 @@
               cursor: pointer;
             }
           }
-
-          .allGradesTitle {
-            position: relative;
-            left: 90px;
-            top: -18px;
+        }
+        .allGradesTitle {
+          position: relative;
+          .allGradesTitleActive{
+            color: #1890ff;
           }
         }
 
@@ -164,12 +164,13 @@
 
           .circle {
             position: absolute;
-            left: 0;
+            left: 30px;
             top: -9px;
             width: 34px;
             height: 34px;
             border-radius: 50%;
             background: #5677fc;
+            transition: all .5s;
           }
         }
       }
@@ -190,7 +191,7 @@
           width: 1440px;
           display: flex;
           margin: 0 auto;
-          border: 1px solid #ccc;
+          border: 1px solid blue;
           .allGradeTxtsItemLeft{
             width: 110px;
             box-sizing: border-box;
@@ -205,7 +206,7 @@
           }
           .allGradeTxtsItemright{
             padding: 10px;
-            font-size: 12px;
+            font-size: 14px;
           }
         }
       }

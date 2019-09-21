@@ -7,8 +7,9 @@ import '@/css/index.css'
 import '@/css/min.css'
 
 function allGrades() {
-  let [flag, setflag] = useState(false)
+  let [flag, setflag] = useState(true)
   let [ind, setInd] = useState(0)
+  let [LB,setlb] = useState('line')
   let [classArr] = useState(['1701E', '1701C', '1705D', '1706D', '1707D', '1708D', '1709D'])
   useEffect(() => {
     // 基于准备好的dom，初始化echarts实例
@@ -51,7 +52,7 @@ function allGrades() {
       series: [
         {
           name: '技能',
-          type: 'line',
+          type: LB,
           data: [11, 11, 15, 13, 12, 13, 10],
           markPoint: {
             data: [
@@ -67,7 +68,7 @@ function allGrades() {
         },
         {
           name: '理论',
-          type: 'line',
+          type: LB,
           data: [1, -2, 2, 5, 3, 2, 0],
           markPoint: {
             data: [
@@ -115,7 +116,7 @@ function allGrades() {
             <span className="allGradesclass">切换班级：</span>
             <div className="allGradesclassList">
               {
-                classArr.map((el, i) => <span key={el} className={ind == i ? 'listActive' : ''} onClick={() => { setInd(i) }}>{el}</span>)
+                classArr.map((el, i) => <span key={el} className={ind == i ? 'listActive' : ''} onClick={() => { setInd(i); }}>{el}</span>)
               }
             </div>
           </div>
@@ -132,9 +133,9 @@ function allGrades() {
               <div className="allGradespos">
                 <div></div>
                 <div className="allGradesposwhite"></div>
-                <div className="circle"></div>
+                <div className="circle" style={{left:flag?0:'30px'}} onClick={()=>{setflag(!flag);setlb(flag?'bar':'line') }}></div>
               </div>
-              <div className="allGradesTitle"><span>柱形图</span> / <span>线图</span></div>
+              <div className="allGradesTitle"><span className={LB=="line"?'allGradesTitleActive':''}>线图</span> / <span className={LB=="bar"?'allGradesTitleActive':''}>柱形图</span></div>
             </div>
           </div>
 
