@@ -28,7 +28,7 @@ function allGrades() {
             <span className="allGradesclass">切换班级：</span>
             <div className="allGradesclassList">
               {
-                classArr.map((el, i) => <span key={el} className={ind == i ? 'listActive' : ''} onClick={() => { setInd(i); }}>{el}</span>)
+                classArr.map((el, i) => <span key={el} className={ind === i ? 'listActive' : ''} onClick={() => { setInd(i); }}>{el}</span>)
               }
             </div>
           </div>
@@ -47,7 +47,7 @@ function allGrades() {
                 <div className="allGradesposwhite"></div>
                 <div className="circle" style={{left:flag?0:'20px'}} onClick={()=>{setflag(!flag);setlb(flag?'bar':'line') }}></div>
               </div>
-              <div className="allGradesTitle"><span className={LB=="line"?'allGradesTitleActive':''}>线图</span> / <span className={LB=="bar"?'allGradesTitleActive':''}>柱形图</span></div>
+              <div className="allGradesTitle"><span className={LB==="line"?'allGradesTitleActive':''}>线图</span> / <span className={LB==="bar"?'allGradesTitleActive':''}>柱形图</span></div>
             </div>
           </div>
 
