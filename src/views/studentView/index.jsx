@@ -55,7 +55,7 @@ const StudentView = props => {
                   <NavLink to="/allGrades">查看和编辑该生所有成绩</NavLink>
               </span>
               <span>
-                  <NavLink to="/deanView">院长视角</NavLink>
+                  <NavLink to="/allGrades">院长视角</NavLink>
               </span>
             </div>
           </div>

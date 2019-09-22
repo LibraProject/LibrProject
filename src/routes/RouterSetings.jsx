@@ -4,7 +4,8 @@ const routes = [
         path: "/", redirect: '/home',
     }, {
         path: "/home", component: lazy(() => import('../views/Home')),
-        children: [{
+        children: [
+        {
             path: "/home/login", component: lazy(() => import('../views/Home/login'))
         }, {
             path: "/home/register", component: lazy(() => import('../views/Home/register'))

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-
+import throttle from '@/utils/throttle'
+import { enroll } from '@/services/example'
 const Register = props => {
     const [username, setUser] = useState()
     const [password, setPsd] = useState()
@@ -31,8 +32,16 @@ const Register = props => {
         if (tel === undefined) {
             setFlagTel(true)
         }
-        console.log(username, password, tel)
+        console.log('触发注册点击')
+        console.log(throttle)
+        throttle(enrollUse,Object.assign({username, password, tel}))
     }
+    const enrollUse = async  (obj)=>{
+        console.log(obj,'---39')
+        const data = await enroll(obj)
+        console.log(data)
+    }
+   
     return (
         <div className="register">
             <li>
