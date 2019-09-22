@@ -16,15 +16,13 @@ class Login extends Component {
     //  登录请求
     userLogin = async (obj)=>{
         const data = await login(obj);
-        console.log(data)
         if(data.code===1){alert(data.msg);
-        //    this.props.history.replace('/studentView')
+           this.props.history.replace('/studentView')
         }else{alert(data.msg)}
     }
     // 登录验证
     login = ()=>{
         let {obj} = this.state;
-        // this.userLogin(obj)
         for(let key in obj){if(obj[key]){throttle(this.userLogin,obj)}else{alert('请完善信息');return}}
     }
 

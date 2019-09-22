@@ -4,7 +4,6 @@ let obj = {
 
 // 函数节流
 function throttle (fn,data){
-    console.log(fn)
     clearTimeout(obj.times)
     obj.times = setTimeout(()=>{
         fn(data)

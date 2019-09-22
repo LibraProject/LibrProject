@@ -32,14 +32,17 @@ const Register = props => {
         if (tel === undefined) {
             setFlagTel(true)
         }
-        console.log('触发注册点击')
-        console.log(throttle)
+        // 函数防抖处理
         throttle(enrollUse,Object.assign({username, password, tel}))
     }
     const enrollUse = async  (obj)=>{
-        console.log(obj,'---39')
         const data = await enroll(obj)
-        console.log(data)
+        if(data.code===1){
+            alert(data.msg)
+            props.history.push('/home/login')
+        }else{
+            alert(data.msg)
+        }
     }
    
     return (
