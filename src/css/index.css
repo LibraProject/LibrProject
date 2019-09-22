@@ -590,5 +590,6 @@
   :global .allGradeswrap .allGradeTxts .allGradeTxtsItem .allGradeTxtsItemright {
     padding: 10px;
     font-size: 14px;
+    background: #009688;
   }
 }

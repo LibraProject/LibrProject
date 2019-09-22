@@ -1,5 +1,12 @@
 import request from '../utils/request';
 
-export function query() {
-  return request('/api/users');
+// 登录接口
+export async function login(obj) {
+  return request.post('/emstu/teacher/login',obj);
 }
+
+// 注册接口
+export async function enroll(obj) {
+  return request.post('/emstu/teacher/register',obj);
+}
+
